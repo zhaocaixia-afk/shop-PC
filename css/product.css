@@ -1,0 +1,126 @@
+/*499*/
+.home{
+    height: 430px;
+}
+.banner{
+    top: 0;
+    left: 0;
+}
+.page{
+    top: 400px;
+    /*left: 0;*/
+}
+/*home部分的二级菜单*/
+.category_caidan{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 430px;
+}
+.category_caidan>p{
+    line-height: 30px;
+    padding-left: 4%;
+}
+.caidan_item{
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    height: 50px;
+    overflow: hidden;
+}
+.caidan_item:last-of-type{
+    border-bottom: none;
+}
+.splice{
+    height: 90px;
+}
+.caidan_item>img{
+    width: 80px;
+    height: 80px;
+}
+.caidan_item>div{
+    font-size: 14px;
+    position: relative;
+}
+.caidan_item>div>span{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    background-color: #cccccc;
+}
+.caidan_item:nth-of-type(-n+3)>div>span{
+    background-color: #ff6600;
+}
+.caidan_item>div>p{
+    margin-top: 20px;
+}
+
+/*乐购图书折扣区内容*/
+.product{
+    height: 572px;
+}
+/*新书上架*/
+.book_left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3%;
+    border: 1px solid #cccccc;
+}
+.book_left>li{
+    width: 20%;
+    height: 220px;
+    font-size: 14px;
+    padding: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.book_left>li>img{
+    width: 100px;
+    height: 100px;
+}
+
+/*独家提供内容*/
+.onehome_come{
+    top: 201px;
+}
+.onehome_page{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    left: 400px;
+}
+.onehome_page>p{
+    width: 10px;
+    height: 10px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.onehome_page>.onehome_current{
+    background-color: #ff6600;
+}
+/*猜你喜欢标题*/
+.jiaohuanImg{
+    width: 20px;
+    height: 15px;
+}
+.jiaohuan{
+    font-size: 14px;
+    color: #478afd;
+    display: flex;
+    align-items: center;
+}
+/*六张图片区域*/
+.six_container{
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.six_container>img{
+    width: 173px;
+    height: 113px;
+}

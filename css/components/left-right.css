@@ -1,0 +1,18 @@
+/*position定位 需要父元素*/
+.onehome_come{
+    z-index: 999;
+    width: 30px;
+    height:50px;
+    line-height: 50px;
+    background: #cccccc;
+    color: #eeeeee;
+    font-size: 40px;
+    position: absolute;
+    /*需要添加top*/
+}
+.onehome_left{
+    left: 0;
+}
+.onehome_right{
+    right: 0;
+}

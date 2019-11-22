@@ -1,0 +1,22 @@
+/*product里面的独家提供内容*/
+/*product里面的猜你喜欢*/
+.newbook_list{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3%;
+    border-bottom: 1px solid #cccccc;
+}
+.newbook_item{
+    font-size: 14px;
+    padding: 10px 0 0 10px;
+    height: 220px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.newbook_item>img{
+    width: 120px;
+    height: 120px;
+}

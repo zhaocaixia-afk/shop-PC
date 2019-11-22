@@ -1,0 +1,28 @@
+/*title样式*/
+.yifu_title{
+    margin-top: 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-bottom: 3px solid #ff6600;
+    display: flex;
+    justify-content: space-between;
+}
+.yifu_title>ul{
+    display: flex;
+    font-size: 14px;
+}
+.yifu_title>ul>li{
+    padding: 0 15px;
+}
+/*服装标题 长度为100%*/
+.book_title{
+    width: 77%;
+}
+
+/*product所有的标题*/
+.yifu_title>p>span{
+    background-color: #ff6600;
+    color: white;
+    padding: 5px 10px;
+}

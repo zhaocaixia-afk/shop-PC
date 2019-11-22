@@ -1,0 +1,45 @@
+/*499的轮播图 需要定位top和left*/
+.home{
+    height: 430px;
+    position: relative;
+}
+.banner{
+    position: absolute;
+    width: 838px;
+    height: 430px;
+    overflow: hidden;
+}
+.pic_list{
+    position: absolute;
+    height: 400px;
+    width: 3352px;
+}
+.pic_list>li{
+    float: left;
+}
+.banner img{
+    width: 838px;
+    height: 400px;
+ }
+.page{
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 796px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40%;
+    top: 400px;
+}
+.page>li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #d8d8d8;
+    line-height: 20px;
+    text-align: center;
+}
+.page>.on{
+    background-color: #ff6600;
+}

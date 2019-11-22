@@ -1,0 +1,229 @@
+.tabber{
+    position: absolute;
+    top: 25px;
+    left: 27%;
+    font-size: 22px;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+.tabber>p{
+    margin-right: 40%;
+}
+.tabber>a{
+    font-size: 16px;
+    margin-right: 10%;
+    padding: 5px 10px;
+}
+/*蓝色区域*/
+.blue-container{
+    height: 350px;
+    background: url("../images/people/blue-left.png") 0 0;
+    display: flex;
+}
+.blue-container{
+    padding:10px 12%;
+}
+.blue-left{
+    width: 19%;
+    height: 330px;
+}
+.blue-center{
+    width: 60%;
+    height: 330px;
+    position: relative;
+    margin: 0 1%;
+}
+.blue-nav{
+    position: absolute;
+    display: flex;
+    bottom: 19px;
+    left: 280px;
+}
+.blue-nav>li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+/*灰色四张图片部分*/
+.gray-container{
+    height: 150px;
+    background-color: #f5f5f5;
+    padding: 10px 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.gray-container>img{
+    width: 24%;
+    height: 130px;
+}
+/*乐豆兑换券内容*/
+.newbook_list{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.newbook_item{
+    font-size: 14px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+.newbook_item>img{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #cccccc;
+}
+.newbook_item>div{
+    background-color: #f5f5f5;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newbook_item>div>p:first-of-type{
+    margin-top: 10px;
+    line-height: 30px;
+}
+.blue-small-text{
+    font-size: 12px;
+}
+.newbook_item>div>.book_current{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+/*item中小的红色区域*/
+.red-small{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    color: white;
+    padding: 0 10px;
+    height: 20px;
+    background-color: red;
+    font-size: 12px;
+    line-height: 20px;
+}
+/*3F*/
+.three-lou{
+    padding: 20px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.threeLou-item{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+.threeLou-item>img{
+    width: 100%;
+    height: 200px;
+}
+.threeLou-item>p{
+    line-height: 25px;
+}
+
+/*我的订单内容*/
+.myOrder{
+    display: none;
+}
+.myOrder>.write{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+/*左边的内容*/
+.order-left{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    background-color: #fafafa;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.order-left>img:first-of-type{
+    height: 400px;
+}
+.order-left>p{
+    width: 92%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+/*右边的内容*/
+.order-right{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+}
+.order-right>p{
+    font-size: 14px;
+}
+.order-gray-title{
+    line-height: 40px;
+    display: flex;
+    background-color: #f2f2f2;
+}
+.order-gray-title>p[class=color]{
+    font-size: 16px;
+}
+.order-gray-title>p{
+    margin-right: 10%;
+}
+/*货品列表*/
+.order-list{
+    margin-top: 10px;
+    border-top: 3px solid #cccccc;
+}
+.order-item{
+    padding: 10px 0 10px 2%;
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    justify-content: space-between;
+}
+.order-item>p>img{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #cccccc;
+}
+.sell{
+    margin: 0 10% 0 30%;
+}
+.go-money{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.go-money>span>a{
+    margin-right:20px;
+}
+/*去结算*/
+.total_container{
+    height: 40px;
+    border: 1px solid #cccccc;
+    margin: 30px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.total_container>.book_current{
+    padding: 10px 20px;
+}
+.total-select{
+    margin: 0 5% 0 30%;
+}
+.total_container>p:first-of-type>label{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.total_container>p:first-of-type>label>input{
+    margin-right: 20%;
+}

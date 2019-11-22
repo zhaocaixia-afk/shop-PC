@@ -1,0 +1,42 @@
+/*搜索、购物车、我的订单部分*/
+/*相对于container定位*/
+.search_order{
+    position: absolute;
+    top: 25px;
+    right: 12%;
+    display: flex;
+}
+.search{
+    width: 380px;
+    height: 30px;
+    border: 1px solid #ff6600;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.search>input[type=text]{
+    width: 330px;
+    text-indent: 10px;
+}
+.search>input[type=search]{
+    width: 30px;
+    height: 28px;
+    background: url("../../images/icon/sousuo-copy.png") no-repeat 0 0;
+    background-size: contain;
+}
+.search_order>a>button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #cccccc;
+}
+.my_cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff6600;
+    color: #ffefd3;
+}
+.my_cart>img{
+    width: 28px;
+    height: 28px;
+}

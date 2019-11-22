@@ -1,0 +1,108 @@
+/*配送至*/
+.mudidi{
+    position: absolute;
+    right: 16%;
+    height: 20px;
+    white-space: nowrap;
+}
+.mudidi>label{
+    display: flex;
+    align-items: center;
+}
+.mudidi input{
+    width: 140px;
+    height: 20px;
+    border: 1px solid #cccccc;
+}
+/*全部商品*/
+.cart_title{
+    line-height: 40px;
+    font-size: 16px;
+}
+/*灰色部分*/
+.cart_gray{
+    height: 40px;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 0 0 0 20px;
+    align-items: center;
+}
+.cart_gray>label{
+    display: flex;
+    align-items: center;
+}
+.cart_gray>span:first-of-type{
+    margin:0 18% 0 20%;
+}
+.cart_count{
+    margin: 0 17% 0 11%;
+}
+.cart_gray>span:last-of-type{
+    margin-left: 11%;
+}
+/*列表部分*/
+.cart_list{
+    margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid #cccccc;
+}
+.cart_item{
+    padding: 10px 20px;
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    justify-content: space-between;
+}
+.cart_check{
+    display: flex;
+}
+.cart_check>input{
+    margin-right: 20px;
+}
+.lugouImg{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cccccc;
+}
+.cart_number{
+    width: 90px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.cart_number>span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.cart_number>span:first-of-type{
+    border-right: 1px solid #cccccc;
+}
+.cart_number>span:last-of-type{
+    border-left: 1px solid #cccccc;
+}
+.cart_opt{
+    display: flex;
+    flex-direction: column;
+}
+/*去结算*/
+.total_container{
+    white-space: nowrap;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+.total_container>label{
+    margin-right: 3%;
+}
+.select_count{
+    margin: 0 7% 0 45%;
+}
+.total_container>button{
+    width: 9%;
+    margin-left: 12%;
+    padding: 0 1%;
+    height: 38px;
+}

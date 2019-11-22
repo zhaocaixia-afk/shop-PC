@@ -1,0 +1,209 @@
+/*项目文件的基本配置*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.color{
+    color: #ff6600;
+}
+.under{
+    text-decoration: line-through;
+    color: #cccccc;
+    font-size: 12px;
+}
+input{
+    outline: none;
+    border: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+/*当前选中  背景为黄色，字体为白色*/
+.book_current{
+    background-color: #ff6600;
+    color: white;
+}
+.yanzhenma{
+    width: 25%;
+    height: 28px;
+    background-color: blue;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+}
+/*2折图标样式*/
+.organText{
+    width: 50px;
+    padding-left: 10px;
+    background-color: #f5290e;
+    color: white;
+}
+/*绿色底，白色字*/
+.green{
+    background-color: green;
+    color: white;
+}
+
+/*文字的颜色和大小*/
+.bgSize{
+    font-size: 12px;
+    color: #acacac;
+}
+/*向下图片*/
+.downImg{
+    width: 20px;
+    height: 20px;
+}
+/*向右的图片大小*/
+.xianyouImg{
+    width: 20px;
+    height: 20px;
+}
+/*两个向右图片大小*/
+.tworightImg{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.bg_color{
+    background-color: #ff6600;
+}
+/*关闭图片大小*/
+.guanbiImg{
+    width: 20px;
+    height: 20px;
+}
+
+/*魔兽区域*/
+.msImg>img{
+    width: 100%;
+    height: 90px;
+}
+
+.blue{
+    color: blue;
+}
+
+.write{
+    width: 76%;
+    height: auto;
+    margin-left: 12%;
+}
+/*总的容器*/
+#container{
+    width: 1366px;
+    position: relative;
+}
+/*header区域*/
+header{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    padding-left: 12%;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 40px;
+    position: relative;
+}
+header>p{
+    position: absolute;
+    right: 12%;
+    line-height: 20px;
+}
+header>p>a{
+    color: white;
+}
+header>.logo{
+    position: absolute;
+    top: 0px;
+    width: 200px;
+    height: 60px;
+}
+/*四张图片保障区域*/
+.promise{
+    width: 100%;
+    height: 80px;
+    background-color: #fafafa;
+    border-top: 3px solid #fe5e00;
+    padding: 0 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promise>li{
+    width: 140px;
+    height: 52px;
+}
+.bg_one{
+    background: url("../../images/logo/footer_bg.png") no-repeat 0 0;
+}
+.bg_two{
+    background: url("../../images/logo/footer_bg.png") no-repeat 0 -52px;
+}
+.bg_three{
+    background: url("../../images/logo/footer_bg.png") no-repeat 0 -104px;
+}
+.bg_four{
+    background: url("../../images/logo/footer_bg.png") no-repeat 0 -156px;
+}
+/*五列加图标部分*/
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 28%;
+    justify-content: space-between;
+    position: relative;
+}
+.footer>ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer>ul>span{
+    line-height: 30px;
+    color: #444444;
+    font-size: 12px;
+}
+.footer>ul>li{
+    color: #838383;
+    font-size: 12px;
+    line-height: 20px;
+}
+.bg_logo{
+    position: absolute;
+    width: 120px;
+    height: 85px;
+    top: 15px;
+    right: 15%;
+}
+/*底部公司商标部分*/
+footer{
+    padding: 0 25%;
+    font-size: 12px;
+    color: #838383;
+}
+footer>ul{
+    display: flex;
+    margin: 20px 0;
+}
+footer>ul>li{
+    white-space: nowrap;
+    padding: 0 2%;
+}
+footer>p{
+    text-align: center;
+}

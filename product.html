@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>product</title>
+    <link rel="stylesheet" href="css/components/basic.css">
+    <link rel="stylesheet" href="css/product.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/components/search-cart-order.css">
+    <link rel="stylesheet" href="css/components/nav.css">
+    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/six-list.css">
+    <link rel="stylesheet" href="css/components/two-menu.css">
+    <link rel="stylesheet" href="css/components/product/book-list.css">
+    <link rel="stylesheet" href="css/components/home-lunbo.css">
+    <link rel="stylesheet" href="css/components/left-right.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <div class="logo">
+            <img src="images/logo/logo.png">
+        </div>
+        <p>
+            欢迎光临<span class="color">乐购</span>,
+            请 <span>登陆</span>\<span class="color">注册</span>
+        </p>
+    </header>
+    <!--     搜索、购物车、我的订单部分 -->
+    <div class="search_order">
+        <div class="search">
+            <input type="text" placeholder="创意文具">
+            <input type="search">
+        </div>
+        <a href="cart.html">
+            <button class="my_cart">
+                <img src="images/icon/cart.png">
+                <span>购物车</span>
+                <span>3</span>
+            </button>
+        </a>
+        <a href="register.html">
+            <button>我的订单</button>
+        </a>
+    </div>
+
+    <!--    中间代码的可变区域-->
+    <div class="write">
+        <!--    导航部分-->
+        <nav>
+            <p class="green">全部商品分类<img class="downImg" src="images/icon/down.png"></p>
+            <span>图书</span>
+            <span>电子书</span>
+            <span>原创文学</span>
+            <span>服装</span>
+            <span>运动户外</span>
+            <span>孕婴童</span>
+            <span>家居</span>
+            <span>创意文具</span>
+            <span>地方特产</span>
+            <span>海外购</span>
+            <span>电器城</span>
+        </nav>
+        <!--    首页499-->
+        <div class="home">
+            <div class="banner">
+                <div class="onehome_come onehome_left">&lt;</div>
+                <div class="onehome_come onehome_right">&gt;</div>
+                <ul class="pic_list">
+                    <li><img src="images/lunbotu/499.jpg"></li>
+                    <li><img src="images/lunbotu/七夕特卖专场.jpg"></li>
+                    <li><img src="images/lunbotu/买给心爱的他.jpg"></li>
+                    <li><img src="images/lunbotu/499.jpg"></li>
+                </ul>
+                <div class="page">
+                    <li class="on">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </div>
+            </div>
+            <div class="category_caidan">
+                <p class="green">热卖畅销</p>
+                <li class="caidan_item splice">
+                    <img src="images/icon/santi.jpg">
+                    <div>
+                        <span>1</span>
+                        <p>《三体》刘慈欣一场科幻的史诗风暴</p>
+                    </div>
+                </li>
+                <li class="caidan_item">
+                    <img src="images/icon/santi.jpg">
+                    <div>
+                        <span>2</span>
+                        <p>《三体》刘慈欣一场科幻的史诗风暴</p>
+                    </div>
+                </li>
+                <li class="caidan_item">
+                    <img src="images/icon/santi.jpg">
+                    <div>
+                        <span>3</span>
+                        <p>《三体》刘慈欣一场科幻的史诗风暴</p>
+                    </div>
+                </li>
+                <li class="caidan_item">
+                    <img src="images/icon/santi.jpg">
+                    <div>
+                        <span>4</span>
+                        <p>《三体》刘慈欣一场科幻的史诗风暴</p>
+                    </div>
+                </li>
+                <li class="caidan_item">
+                    <img src="images/icon/santi.jpg">
+                    <div>
+                        <span>5</span>
+                        <p>《三体》刘慈欣一场科幻的史诗风暴</p>
+                    </div>
+                </li>
+                <li class="caidan_item">
+                    <img src="images/icon/santi.jpg">
+                    <div>
+                        <span>6</span>
+                        <p>《三体》刘慈欣一场科幻的史诗风暴</p>
+                    </div>
+                </li>
+                <li class="caidan_item">
+                    <img src="images/icon/santi.jpg">
+                    <div>
+                        <span>7</span>
+                        <p>《三体》刘慈欣一场科幻的史诗风暴</p>
+                    </div>
+                </li>
+            </div>
+        </div>
+        <!--    魔兽区域-->
+        <div class="msImg">
+            <img src="images/lunbotu/ms.png">
+        </div>
+        <!--    乐购图书折扣区标题-->
+        <div class="yifu_title">
+            <p><span>乐购·图书折扣区</span></p>
+        </div>
+        <!--    乐购图书折扣区内容-->
+        <div class="produce product">
+            <li class="produce_current">
+                <a href="#">
+                    <img src="images/book/baiyexing.jpg">
+                    <p class="organText">2折</p>
+                    <p>白夜行 东野圭吾</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/book/baiyexing.jpg">
+                    <p class="organText">2折</p>
+                    <p>白夜行 东野圭吾</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/book/baiyexing.jpg">
+                    <p class="organText">2折</p>
+                    <p>白夜行 东野圭吾</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/book/baiyexing.jpg">
+                    <p class="organText">2折</p>
+                    <p>白夜行 东野圭吾</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/book/baiyexing.jpg">
+                    <p class="organText">2折</p>
+                    <p>白夜行 东野圭吾</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+                </a>
+            </li>
+
+            <li>
+                <a href="product-detail.html">
+                    <img src="images/book/children.jpg">
+                    <p class="organText">6折</p>
+                    <p>偷影子的人</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：30</span>&nbsp;&nbsp;<span class="under">￥：46</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="product-detail.html">
+                    <img src="images/book/children.jpg">
+                    <p class="organText">6折</p>
+                    <p>偷影子的人</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：30</span>&nbsp;&nbsp;<span class="under">￥：46</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="product-detail.html">
+                    <img src="images/book/children.jpg">
+                    <p class="organText">6折</p>
+                    <p>偷影子的人</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：30</span>&nbsp;&nbsp;<span class="under">￥：46</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="product-detail.html">
+                    <img src="images/book/children.jpg">
+                    <p class="organText">6折</p>
+                    <p>偷影子的人</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：30</span>&nbsp;&nbsp;<span class="under">￥：46</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="product-detail.html">
+                    <img src="images/book/children.jpg">
+                    <p class="organText">6折</p>
+                    <p>偷影子的人</p>
+                    <p class="img_line">
+                        <span class="color">推荐:</span>
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                        <img src="images/icon/star.png">
+                    </p>
+                    <p><span class="color">￥：30</span>&nbsp;&nbsp;<span class="under">￥：46</span></p>
+                </a>
+            </li>
+        </div>
+        <!--    新书上架标题-->
+        <div class="yifu_title book_title">
+            <p><span>新</span>书上架</p>
+        </div>
+        <!--     新书上架内容-->
+        <div class="book">
+            <div class="book_left">
+                <li>
+                    <img src="images/book/dashuju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/dashuju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/dashuju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/dashuju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/dashuju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+
+                <li>
+                    <img src="images/book/jirong.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/jirong.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/jirong.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/jirong.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li>
+                    <img src="images/book/jirong.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+            </div>
+            <div class="now_book">
+                <p>主编推荐</p>
+                <li>
+                    <span class="number">1</span>
+                    <span>就喜欢你看不懂我 又干不</span>
+                    <div class="sub show">
+                        <img class="todoImg" src="images/book/book-luguo.jpg">
+                        <p>从你的全世界路过入选央视，“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发。超4亿次阅读</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="number">2</span>
+                    <span>就喜欢你看不懂我 又干不</span>
+                    <div class="sub">
+                        <img class="todoImg" src="images/book/book-luguo.jpg">
+                        <p>从你的全世界路过入选央视，“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发。超4亿次阅读</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="number">3</span>
+                    <span>就喜欢你看不懂我 又干不</span>
+                    <div class="sub">
+                        <img class="todoImg" src="images/book/book-luguo.jpg">
+                        <p>从你的全世界路过入选央视，“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发。超4亿次阅读</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="number">4</span>
+                    <span>就喜欢你看不懂我 又干不</span>
+                    <div class="sub">
+                        <img class="todoImg" src="images/book/book-luguo.jpg">
+                        <p>从你的全世界路过入选央视，“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发。超4亿次阅读</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="number">5</span>
+                    <span>就喜欢你看不懂我 又干不</span>
+                    <div class="sub">
+                        <img class="todoImg" src="images/book/book-luguo.jpg">
+                        <p>从你的全世界路过入选央视，“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发。超4亿次阅读</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="number">6</span>
+                    <span>就喜欢你看不懂我 又干不</span>
+                    <div class="sub">
+                        <img class="todoImg" src="images/book/book-luguo.jpg">
+                        <p>从你的全世界路过入选央视，“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发。超4亿次阅读</p>
+                    </div>
+                </li>
+            </div>
+        </div>
+        <!--    独家提供标题-->
+        <div class="yifu_title">
+            <p><span>独</span>家提供</p>
+            <ul>
+                <li class="book_current">货币金融</li>
+                <li>社会文学</li>
+                <li>科学技术</li>
+                <li>儿童文学</li>
+                <li>教学参辅</li>
+                <li>生活</li>
+                <li>小说</li>
+            </ul>
+        </div>
+        <!--    独家提供内容-->
+        <div class="newbook_list">
+            <li class="newbook_item">
+                <img src="images/book/aidehua.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/aidehua.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/aidehua.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/aidehua.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/aidehua.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/aidehua.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+
+            <li class="newbook_item">
+                <img src="images/book/huobi.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/huobi.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/huobi.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/huobi.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/huobi.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <li class="newbook_item">
+                <img src="images/book/huobi.jpg">
+                <h4>查理 斯密斯</h4>
+                <p>中国邮电出版社</p>
+                <p>
+                    <span class="color">￥49</span>
+                    <span class="under">￥79</span>
+                </p>
+            </li>
+            <div class="onehome_come onehome_left">&lt;</div>
+            <div class="onehome_come onehome_right">&gt;</div>
+            <div class="onehome_page">
+                <p class="onehome_current"></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+        <!--    猜你喜欢标题-->
+        <div class="yifu_title">
+            <p><span>猜</span>你喜欢</p>
+            <p class="jiaohuan"><img src="images/icon/jiaohuan.png" class="jiaohuanImg">换一批</p>
+        </div>
+        <!--    猜你喜欢内容-->
+        <div class="newbook_list">
+                <li class="newbook_item">
+                    <img src="images/book/guiju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/guiju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/guiju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/guiju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/guiju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/guiju.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+
+                <li class="newbook_item">
+                    <img src="images/book/yujian.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/yujian.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/yujian.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/yujian.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/yujian.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+                <li class="newbook_item">
+                    <img src="images/book/yujian.jpg">
+                    <h4>查理 斯密斯</h4>
+                    <p>中国邮电出版社</p>
+                    <p>
+                        <span class="color">￥49</span>
+                        <span class="under">￥79</span>
+                    </p>
+                </li>
+            </div>
+        <!--    底部列表-->
+        <div class="six_container">
+            <img src="images/book/xilixue.jpg">
+            <img src="images/book/xilixue.jpg">
+            <img src="images/book/xilixue.jpg">
+            <img src="images/book/xilixue.jpg">
+            <img src="images/book/xilixue.jpg">
+            <img src="images/book/xilixue.jpg">
+        </div>
+        <!--    魔兽区域-->
+        <div class="msImg">
+            <img src="images/lunbotu/ms.png">
+        </div>
+    </div>
+
+    <div class="promise">
+        <li class="bg_one"></li>
+        <li class="bg_two"></li>
+        <li class="bg_three"></li>
+        <li class="bg_four"></li>
+    </div>
+    <div class="footer">
+        <ul>
+            <span>购物指南</span>
+            <li>购物流程</li>
+            <li>发票制度</li>
+            <li>账号管理</li>
+            <li>会员优惠</li>
+        </ul>
+        <ul>
+            <span>支付方式</span>
+            <li>货到付款</li>
+            <li>网上支付</li>
+            <li>礼品卡支付</li>
+            <li>银行转账</li>
+        </ul>
+        <ul>
+            <span>订单服务</span>
+            <li>订单配送查询</li>
+            <li>订单状态说明</li>
+            <li>自助取消订单</li>
+            <li>自助修改订单</li>
+        </ul>
+        <ul>
+            <span>退还货</span>
+            <li>退还货政策</li>
+            <li>自助申请退还货</li>
+            <li>退还货进度查询</li>
+            <li>退款方式和时间</li>
+        </ul>
+        <ul>
+            <span>商家服务</span>
+            <li>商家中心</li>
+            <li>运营服务</li>
+            <li>加入唯品会</li>
+        </ul>
+        <div class="bg_logo">
+            <img src="images/index/legou.png">
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>公司简介</li>|
+            <li>Investor Relations</li>|
+            <li>网站联盟</li>|
+            <li>乐购招商</li>|
+            <li>机构销售</li>|
+            <li>手机乐购</li>|
+            <li>官方Blog</li>|
+            <li>热词搜索</li>
+        </ul>
+        <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </footer>
+</div>
+</body>
+</html>

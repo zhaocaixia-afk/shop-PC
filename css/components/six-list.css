@@ -1,0 +1,30 @@
+/*index中 推广产品内容*/
+/*product中 乐购图书折扣区*/
+.produce{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.produce>li{
+    padding: 20px 20px 30px 30px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.produce>.produce_current{
+    background: #f2f2f2;
+}
+.produce>li>a>img{
+    width: 150px;
+    height: 150px;
+}
+.img_line{
+    display: flex;
+    align-items: center;
+}
+.img_line>img{
+    width: 20px;
+    height: 20px;
+}

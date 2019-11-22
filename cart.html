@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>cart</title>
+    <link rel="stylesheet" href="css/components/basic.css">
+    <link rel="stylesheet" href="css/components/search-cart-order.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/six-list.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <div class="logo">
+            <img src="images/logo/cart-logo.png">
+        </div>
+        <p>
+            欢迎光临<span class="color">乐购</span>,
+            请 <span>登陆</span>\<span class="color">注册</span>
+        </p>
+    </header>
+    <!--     搜索、购物车、我的订单部分 -->
+    <div class="search_order">
+        <div class="search">
+            <input type="text" placeholder="设计中的设计 原研哉">
+            <input type="search">
+        </div>
+    </div>
+<!--    目的地-->
+    <div class="mudidi">
+        <label>配送至：
+            <input type="text" list="optlist" placeholder="成都高新区三环内">
+            <datalist id="optlist">
+                <option value="1"></option>
+                <option value="2"></option>
+            </datalist>
+        </label>
+    </div>
+    <!--    中间代码的可变区域-->
+    <div class="write bgSize">
+        <p class="cart_title color">全部商品(2)</p>
+        <div class="cart_gray">
+            <label><input type="checkbox">全选</label>
+            <span>商品</span>
+            <span>单价</span>
+            <span class="cart_count">数量</span>
+            <span>小计</span>
+            <span>操作</span>
+        </div>
+<!--        列表部分-->
+        <div class="cart_list">
+            <div class="cart_item">
+                <div class="cart_check">
+                    <input type="checkbox">
+                    <img class="lugouImg" src="images/book/book-luguo.jpg">
+                </div>
+                <p>从你的全世界路过</p>
+                <p>41.00</p>
+                <div class="cart_number">
+                    <span>-</span>
+                    <p>1</p>
+                    <span>+</span>
+                </div>
+                <p>41.00</p>
+                <p class="cart_opt"><span>删除</span><span>移到我的关注</span></p>
+            </div>
+            <div class="cart_item">
+                <div class="cart_check">
+                    <input type="checkbox">
+                    <img class="lugouImg" src="images/book/book-luguo.jpg">
+                </div>
+                <p>从你的全世界路过</p>
+                <p>41.00</p>
+                <div class="cart_number">
+                    <span>-</span>
+                    <p>1</p>
+                    <span>+</span>
+                </div>
+                <p>41.00</p>
+                <p class="cart_opt"><span>删除</span><span>移到我的关注</span></p>
+            </div>
+        </div>
+<!--        去结算-->
+        <div class="cart_gray total_container">
+            <label><input type="checkbox">全选</label>
+            <p>删除选中商品</p>
+            <p class="select_count">已选择 <span class="color">1</span> 种商品</p>
+            <p>总价<span class="color">41.00</span></p>
+            <button class="book_current">去结算</button>
+        </div>
+
+        <div class="yifu_title">
+            <p><span>猜你喜欢</span></p>
+        </div>
+        <div class="produce product">
+            <li class="produce_current">
+                <img class="produceImg" src="images/book/baiyexing.jpg">
+                <p class="organText">2折</p>
+                <p>白夜行 东野圭吾</p>
+                <p class="img_line">
+                    <span class="organ1">推荐:</span>
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                </p>
+                <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+            </li>
+            <li>
+                <img class="produceImg" src="images/book/baiyexing.jpg">
+                <p class="organText">2折</p>
+                <p>白夜行 东野圭吾</p>
+                <p class="img_line">
+                    <span class="organ1">推荐:</span>
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                </p>
+                <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+            </li>
+            <li>
+                <img class="produceImg" src="images/book/baiyexing.jpg">
+                <p class="organText">2折</p>
+                <p>白夜行 东野圭吾</p>
+                <p class="img_line">
+                    <span class="organ1">推荐:</span>
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                </p>
+                <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+            </li>
+            <li>
+                <img class="produceImg" src="images/book/baiyexing.jpg">
+                <p class="organText">2折</p>
+                <p>白夜行 东野圭吾</p>
+                <p class="img_line">
+                    <span class="organ1">推荐:</span>
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                </p>
+                <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+            </li>
+            <li>
+                <img class="produceImg" src="images/book/baiyexing.jpg">
+                <p class="organText">2折</p>
+                <p>白夜行 东野圭吾</p>
+                <p class="img_line">
+                    <span class="organ1">推荐:</span>
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                    <img class="pinglunImg" src="images/icon/star.png">
+                </p>
+                <p><span class="color">￥：38</span>&nbsp;&nbsp;<span class="under">￥：58</span></p>
+            </li>
+        </div>
+        <!--        魔界-->
+        <div class="msImg">
+            <img src="images/lunbotu/ms.png">
+        </div>
+    </div>
+
+    <div class="promise">
+        <li class="bg_one"></li>
+        <li class="bg_two"></li>
+        <li class="bg_three"></li>
+        <li class="bg_four"></li>
+    </div>
+    <div class="footer">
+        <ul>
+            <span>购物指南</span>
+            <li>购物流程</li>
+            <li>发票制度</li>
+            <li>账号管理</li>
+            <li>会员优惠</li>
+        </ul>
+        <ul>
+            <span>支付方式</span>
+            <li>货到付款</li>
+            <li>网上支付</li>
+            <li>礼品卡支付</li>
+            <li>银行转账</li>
+        </ul>
+        <ul>
+            <span>订单服务</span>
+            <li>订单配送查询</li>
+            <li>订单状态说明</li>
+            <li>自助取消订单</li>
+            <li>自助修改订单</li>
+        </ul>
+        <ul>
+            <span>退还货</span>
+            <li>退还货政策</li>
+            <li>自助申请退还货</li>
+            <li>退还货进度查询</li>
+            <li>退款方式和时间</li>
+        </ul>
+        <ul>
+            <span>商家服务</span>
+            <li>商家中心</li>
+            <li>运营服务</li>
+            <li>加入唯品会</li>
+        </ul>
+        <div class="bg_logo">
+            <img src="images/index/legou.png">
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li>公司简介</li>|
+            <li>Investor Relations</li>|
+            <li>网站联盟</li>|
+            <li>乐购招商</li>|
+            <li>机构销售</li>|
+            <li>手机乐购</li>|
+            <li>官方Blog</li>|
+            <li>热词搜索</li>
+        </ul>
+        <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </footer>
+</div>
+</body>
+</html>

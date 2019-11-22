@@ -1,0 +1,54 @@
+.huanying{
+    position: absolute;
+    top: 25px;
+    left: 30%;
+    font-size: 22px;
+}
+/*请登陆*/
+.place{
+    position: absolute;
+    top: 35px;
+    right: 18%;
+    font-size: 14px;
+}
+/*form区域*/
+.form_container{
+    border-top: 3px solid #cccccc;
+}
+form{
+    margin-left: 37%;
+}
+.register{
+    margin: 30px 0;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+}
+.register>label>span{
+    display: inline-block;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+}
+.register>label>input{
+    height: 22px;
+    width: 200px;
+}
+form>p>label{
+    display: flex;
+    align-items: center;
+}
+form>.book_current{
+    margin: 20px 0;
+    width: 400px;
+    height: 30px;
+}
+/*按钮样式*/
+
+.register>button{
+    background-color: #cccccc;
+    color: #343434;
+}
